@@ -1,2 +1,6 @@
 print("===Program Konversi Suhu===\n")
-Suhu = input("Masukan Suhu Dalam Celcius : ")
+SuhuCelcius = float(input("Masukan Suhu Dalam Celcius : "))
+
+SuhuFarenheit = ((9/5) * SuhuCelcius) + 32
+print("\nSuhu Dalam Satuan Farenheit adalah ", SuhuFarenheit, "Farenheit")
+
